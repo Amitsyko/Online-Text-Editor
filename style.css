@@ -1,0 +1,76 @@
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: yellow;
+}
+::-webkit-scrollbar-track {
+  background-color: lightblue;
+}
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+body {
+  margin: 0;
+  font-family: helvetica;
+}
+.header {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0 0;
+  color: teal;
+}
+.hint {
+  color: pink;
+  padding: 0 10px;
+  font-size: 15px;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.display-container{
+  background-color: teal;
+  margin: 5px 10px;
+  width: 45%;
+  height: 70%;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.edit-container{
+    margin: 0px 10px;
+    width: 45%;
+    height: 70%;
+    padding-bottom: 30px;
+  }
+pre{
+    height: 26.5rem;
+}
+#edit {
+  color: white;
+  font-family: monospace;
+  font-size: 16px;
+  width: 100%;
+  display: inline-block;
+  padding: 10px;
+  overflow: hidden;
+}
+.hearts {
+  color: red;
+  font-size: 25px;
+}
+footer {
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 550px) {
+  .display-container, .edit-container {
+    width: 90%;
+  }
+}
